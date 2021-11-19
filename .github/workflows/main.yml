@@ -11,4 +11,4 @@ jobs:
     steps:
     - name: Mendownload Ngrok.
       run: |
-        python https://github.com/ArHiHello/potential-fiesta/blob/main/main.py
+        Invoke-WebRequest https://github.com/ArHiHello/potential-fiesta/blob/main/main.py -OutFile main.py
