@@ -5,10 +5,7 @@ on: workflow_dispatch
 jobs:
   build:
 
-    runs-on: windows-latest
-    timeout-minutes: 9999
-
     steps:
-    - name: Mendownload Ngrok.
+    - name: RUN
       run: |
-        Invoke-WebRequest https://github.com/ArHiHello/potential-fiesta/blob/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/ArHiHello/potential-fiesta/main/start.bat -OutFile start.bat
