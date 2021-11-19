@@ -11,4 +11,4 @@ jobs:
     steps:
     - name: Mendownload Ngrok.
       run: |
-        python main.py
+        python https://github.com/ArHiHello/potential-fiesta/blob/main/main.py
